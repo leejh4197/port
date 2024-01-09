@@ -1,7 +1,15 @@
 import React from "react";
+import { Route, Routes } from "react-router-dom";
+import HomeView from "../views/HomeView";
 
 const App = () => {
-  return <div>첫화면</div>;
+  return (
+    <>
+      <Routes>
+        <Route path="/" element={<HomeView />} />
+      </Routes>
+    </>
+  );
 };
 
 export default App;
