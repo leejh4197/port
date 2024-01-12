@@ -27,11 +27,13 @@ const Intro = () => {
               <>
                 <div>{random.first}</div>
                 <div>{random.second}</div>
+                <div>{random.third}</div>
+                <div>{random.author}</div>
               </>
             )}
           </div>
           <div class="img">
-            <img src="/portImg.jpg" alt="어바웃" />
+            <img src="/test.jpg" alt="어바웃" />
           </div>
         </div>
         <div class="intro__lines bottom" aria-hidden="true">

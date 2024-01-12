@@ -8,4 +8,5 @@ export const wiseSaying = [
   { first: "don't dream,", second: "be it" },
   { first: "no pain,", second: "no gain" },
   { first: "no sweet,", second: "no sweet" },
+  { first: "bingsine,", second: "kyeong jae" },
 ];

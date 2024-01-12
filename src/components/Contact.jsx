@@ -1,4 +1,5 @@
 import React from "react";
+import { RxTriangleRight, RxTriangleLeft } from "react-icons/rx";
 
 const Contact = () => {
   return (
@@ -16,14 +17,16 @@ const Contact = () => {
         </div>
         <div className="contact__text">
           <div className="text">
-            <div>
+            <div className="git">
+              <RxTriangleRight />
               <a
                 href="https://github.com/leejh4197"
                 target="_blank"
                 rel="noreferrer"
               >
-                GITHUB : leejh4197
+                GITHUB
               </a>
+              <RxTriangleLeft />
             </div>
             <div>TEL : 010-9745-4197</div>
             <div>mail : leejh4197@NAVER.COM</div>

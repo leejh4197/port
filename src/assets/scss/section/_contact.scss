@@ -15,7 +15,7 @@
   }
 
   .contact__title {
-    font-size: 10vw;
+    font-size: 5vw;
     text-transform: uppercase;
     line-height: 1;
     font-weight: 800;
@@ -39,11 +39,10 @@
     position: relative;
 
     .text {
-      font-size: 3vw;
-      line-height: 1;
+      font-size: 2vw;
+      line-height: 2;
       font-weight: 900;
       text-transform: uppercase;
-      text-decoration: underline;
       text-align: center;
       position: relative;
       z-index: 100;
@@ -54,6 +53,13 @@
         font-size: 24px;
         padding: 0 16px;
         word-break: break-all;
+      }
+      .git {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // color: coral;
+        color: #53c1ff;
       }
     }
   }

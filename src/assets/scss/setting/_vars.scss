@@ -1,14 +1,14 @@
 :root {
   --mainEng-font: "Montserrat";
-  --mainKor-font: "Do Hyeon";
-  --mainNum-font: "Do Hyeon";
+  --mainKor-font: "Noto Sans KR";
+  --mainNum-font: "Noto Sans KR";
 
   --mainBg-color: #f3ede8;
-  --subBg100: #cdc0b1;
-  --subBg200: #afa395;
-  --subBg300: #81887c;
-  --subBg400: #afa7a2;
-  --subBg500: #a6afa2;
+  --subBg100: hsl(16, 72%, 54%);
+  --subBg200: hsl(16, 72%, 74%);
+  --subBg300: hsl(16, 72%, 84%);
+  --subBg400: hsl(16, 72%, 94%);
+  --subBg500: #53c1ff;
 
   --white: #fff;
   --black: #000;
