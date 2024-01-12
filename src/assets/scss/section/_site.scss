@@ -9,12 +9,12 @@
     height: 5vw;
     font-size: 4vw;
     font-weight: 900;
-    line-height: 1.6;
+    line-height: 1;
     font-family: var(--mainKor-font);
     text-transform: uppercase;
     color: var(--black100);
     border-bottom: 0.4vw solid var(--black100);
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
     @media (max-width: 800px) {
       width: 100%;
@@ -22,7 +22,7 @@
       font-size: 30px;
       height: auto;
       top: 68px;
-      z-index: 1000;
+      z-index: 0;
       background-color: var(--mainBg-color);
     }
 
@@ -39,26 +39,62 @@
       flex-direction: column;
       position: sticky;
       left: 0;
-
       &.s1 {
-        background-color: var(--subBg100);
         top: 180px;
+        &::before {
+          content: "";
+          z-index: -1;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-image: url("../../../../public/ourtravel.png");
+          background-size: cover;
+          background-position: center;
+          filter: blur(5px);
+        }
 
         @media (max-width: 800px) {
           top: 140px;
         }
       }
       &.s2 {
-        background-color: var(--subBg200);
         top: 200px;
+        &::before {
+          content: "";
+          z-index: -1;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-image: url("../../../../public/udon.png");
+          background-size: cover;
+          background-position: center;
+          filter: blur(5px);
+        }
 
         @media (max-width: 800px) {
           top: 160px;
         }
       }
       &.s3 {
-        background-color: var(--subBg300);
         top: 220px;
+        // color: white;
+        &::before {
+          content: "";
+          z-index: -1;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-image: url("../../../../public/karly.png");
+          background-size: cover;
+          background-position: center;
+          filter: blur(5px);
+        }
 
         @media (max-width: 800px) {
           top: 180px;

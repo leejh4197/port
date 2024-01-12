@@ -12,6 +12,7 @@ const Intro = () => {
     <section id="intro">
       <div class="intro__inner">
         <h1 class="intro__title">frontend developer</h1>
+        <h1 class="intro__subTitle">이주형</h1>
         <div class="intro__lines" aria-hidden="true">
           <span class="line"></span>
           <span class="line"></span>
@@ -33,7 +34,7 @@ const Intro = () => {
             )}
           </div>
           <div class="img">
-            <img src="/test.jpg" alt="어바웃" />
+            <img src="/info.jpg" alt="어바웃" />
           </div>
         </div>
         <div class="intro__lines bottom" aria-hidden="true">

@@ -27,6 +27,26 @@
       display: none;
     }
   }
+  @keyframes intro__subTitle-effect {
+    0%,
+    100% {
+      opacity: 1;
+      color: initial;
+    }
+    50% {
+      opacity: 0;
+      color: var(--subBg400);
+    }
+  }
+  .intro__subTitle {
+    margin: 0 auto;
+    letter-spacing: 20px;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: intro__subTitle-effect;
+    animation-timing-function: ease;
+  }
 
   .intro__text {
     width: 100%;
