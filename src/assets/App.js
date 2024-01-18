@@ -18,6 +18,7 @@ const App = () => {
         outerAlpha={0.2}
         innerScale={0.7}
         outerScale={2}
+        color="255, 147, 83"
       />
       <Routes>
         <Route path="/" element={<HomeView />} />

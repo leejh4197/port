@@ -56,6 +56,7 @@ const Port = () => {
               </a>
               <h3 className="title">{port.title}</h3>
               <p className="desc">{port.desc}</p>
+              <p className="code">{port.name}</p>
               <a
                 href={port.view}
                 target="_blank"

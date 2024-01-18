@@ -101,6 +101,11 @@
       .desc {
         font-size: 1rem;
       }
+      .code {
+        display: flex;
+        justify-content: center;
+        color: white;
+      }
       .site {
         border: 1px solid var(--black100);
         display: block;
