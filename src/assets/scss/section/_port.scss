@@ -101,10 +101,17 @@
       .desc {
         font-size: 1rem;
       }
+      .codeTitle {
+        display: flex;
+        justify-content: center;
+        border-bottom: 0.5px dashed black;
+        font-weight: 400;
+      }
       .code {
         display: flex;
         justify-content: center;
-        color: white;
+        color: black;
+        font-weight: 200;
       }
       .site {
         border: 1px solid var(--black100);
